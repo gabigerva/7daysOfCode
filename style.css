@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 1);
+    color:rgb(104, 104, 104);
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 9.25rem;
+    height: 1.68rem;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    margin: auto;
+    margin-left: 2rem;
+}
+
+.login{
+    margin-left: 25rem;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(142, 36, 36, 1);
+    width: 7rem;
+    height: 2.75rem;
+    color: white;
+    border-radius: 0.5rem;
+    border: 0.063rem;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
